@@ -1,0 +1,23 @@
+-------------клиенты---------------
+
+Email - yana667@mail.ru
+Password - Qwerty123
+
+Email - varvara@gmail.com
+Password - Asdfgh123
+
+Email - wqqer@mail.ru
+Password - Zxcvbn111
+
+-------------администраторы---------------
+
+Login - Victorya
+Password - Victorya123
+
+Login - Milya
+Password - Milya123
+
+-------------управляющий-----------------
+
+Login - Anastasiya
+Password - Qwerty111

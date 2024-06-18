@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nixie+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@font-face {
+	font-family: 'VetrinoRegular';
+	src: url('../fonts/vetrinoregular.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/vetrinoregular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/vetrinoregular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/vetrinoregular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/vetrinoregular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/vetrinoregular.svg#vetrinoregular') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body{
+	background: #222222;
+}
+
+.main_head{
+	display:table;
+  	clear:both;
+  	z-index: 5;
+}
+
+.text_head{
+	display:inline-block;
+	margin-left: 1.5%;
+	margin-top: 15px;
+	padding: 0;
+	margin-right: auto;
+	color: #FFFFFF;
+	position: relative;
+	font-family: "Spinnaker", sans-serif;
+	font-size: 46px;
+	float: left;
+}
+
+.text_head a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.buttons_head{
+	display: inline-block;
+	margin-top: 15px;
+	float: right;
+	margin-right:2%;
+}
+
+.button1_head{
+	display: inline-block;
+	width: 150px;
+	height: 55px;
+	background: linear-gradient(90deg, #F39494,#765B99);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 25px;
+
+	font-family: "Spinnaker", sans-serif;
+	color: #222222;
+	font-size: 18px;
+}
+
+.button12_head{
+	display: inline-block;
+	width: 250px;
+	height: 55px;
+	background: linear-gradient(90deg, #765B99,#6F9EB2);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 25px;
+
+	font-family: "Spinnaker", sans-serif;
+	color: #222222;
+	font-size: 18px;
+}
+
+.button1_head:hover{
+	background: linear-gradient(90deg, #F39494,#ffffff);
+}
+
+.button12_head:hover{
+	background: linear-gradient(90deg, #ffffff,#6F9EB2);
+}
+
+.button1_head a{
+	text-decoration: none;
+	color: #222222;
+}
+
+.button12_head a{
+	text-decoration: none;
+	color: #222222;
+}
+
+.button2_head{
+	display: inline-block;
+}
+
+.head_menu li{
+	width: 150px;
+	height: 55px;
+	background: linear-gradient(90deg, #765B99,#6F9EB2);
+	border-radius: 25px;
+	position: relative;
+	margin-top: 2.5%;
+	list-style-type: none;
+	text-align: center;
+	font-family: "Spinnaker", sans-serif;
+	color: #222222;
+	font-size: 18px;
+	z-index: 5;
+}
+
+.head_menu a{
+	color: #222222;
+	text-decoration: none;
+	display: block;
+	height: 55px;
+	padding: 0 10px;
+	line-height: 55px;
+}
+
+.head_menu a:hover{
+	background: linear-gradient(90deg, #ffffff,#6F9EB2);
+	border-radius: 25px;
+
+}
+
+.head_menu ul{
+	position: absolute;
+	display: none;
+	list-style-type: none;
+}
+
+
+.head_menu li:hover ul{
+	display: block;
+}
+
+/*------------------------------------------------------*/
+/*                        ВХОД                          */
+/*------------------------------------------------------*/
+
+.main_log{
+	position: relative;
+	width: 80%;
+	font-family: "Spinnaker", sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	padding-top: 15%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.main_log_text{
+	color: #ffffff;
+	font-size: 32px;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.container_log_m{
+	width: 100%;
+	position: relative;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.input_cont_m{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.input_text_m{
+	font-family: "Spinnaker", sans-serif;
+	display: inline-block;
+	width: 700px;
+	font-size: 24px;
+	background: #ffffff;
+	color: #222222;
+	border-radius: 20px;
+	padding-left: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.login_button_m{
+	font-size: 28px;
+	position: block;
+	text-align: center;
+	margin-top: 5%;
+	width: 59%;
+	height: 60px;
+	background: linear-gradient(90deg, #F39494,#765B99, #6F9EB2);
+	color: #222222;
+	margin-top: 50px;
+	border-radius: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*------------------------------------------------------*/
+/*                        ГЛАВНАЯ                       */
+/*------------------------------------------------------*/
+.manager_main{
+	width: 100%;
+	height: 100%;
+	padding-top: 10%;
+	display: block;
+	z-index: 4;
+}
+
+.manager_main_container{
+	width: 80%;
+	display: flex;
+    flex-flow: column;
+    height: 100%;
+    z-index: 2;
+	margin-right: auto;
+	margin-left: auto;
+	justify-content: center;
+}
+
+.cont_adm{
+	display: flex;
+	background: #353535;
+	border-radius: 25px;
+	margin-top: 20px;
+	height: 60px;
+	align-content: center;
+	justify-content: space-between;
+}
+
+.text_adm{
+	display: inline-block;
+	margin-left: 20px;
+	color: white;
+	font-size: 36px;
+	margin-top: 10px;
+}
+
+.upd_button{
+	display: inline-block;
+	display: flex;
+	margin-right: 20px;
+	width: 450px;
+	justify-content: space-between;
+}
+
+.upd_button1_a {
+	text-decoration: none;
+	color: black;
+}
+
+.upd_button1{
+
+	display: inline-block;
+	font-size: 24px;
+	margin-top: 10px;
+	border-radius: 15px;
+	height: 40px;
+	width: 200px;
+	background: linear-gradient(90deg, #F39494,#765B99);
+}
+
+.upd_button1:hover{
+	background: linear-gradient(90deg, #F39494,#ffffff);
+}
+
+.button_addAdmin{
+	width: 500px;
+	height: 60px;
+	font-size: 28px;
+	border-radius: 20px;
+	font-family: "Spinnaker", sans-serif;
+	background: linear-gradient(90deg, #F39494,#765B99, #6F9EB2);
+	margin-top: 50px;
+	display: inline-block;
+}
+
+.button_addAdmin:hover{
+	background: linear-gradient(90deg, #F39494,#ffffff, #6F9EB2);
+}
+
+/*------------------------------------------------------*/
+/*                 ДОБАВИТЬ АДМИНИСТРАТОРА              */
+/*------------------------------------------------------*/
+
+.main_reg{
+	position: relative;
+	width: 100%;
+	font-family: "Spinnaker", sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	padding-top: 7%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.container_reg{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	width: 60%;
+	height: 100%;
+}
+
+.main_reg_text{
+	color: #ffffff;
+	font-size: 32px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.addAdmin_input{
+	width: 100%;
+	font-size: 32px;
+	font-family: "Spinnaker", sans-serif;
+	margin-top: 20px;
+	border-radius: 20px;
+	padding-left: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+}
+
+input.addAdmin_input::placeholder{
+	color: #222222;
+}
+
+.reg_button{
+	font-size: 28px;
+	position: block;
+	text-align: center;
+	margin-top: 5%;
+	height: 60px;
+	width: 100%;
+	background: linear-gradient(90deg, #F39494,#765B99, #6F9EB2);
+	color: #222222;
+	margin-top: 30px;
+	border-radius: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.reg_button:hover{
+	background: linear-gradient(90deg, #F39494,#ffffff, #6F9EB2);;
+}
+
+/*------------------------------------------------------*/
+/*                 ИЗМЕНИТЬ АДМИНИСТРАТОРА              */
+/*------------------------------------------------------*/
+
+.main_updAdmin{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	padding-top: 7%;
+	display: flex;
+}
+
+.container_updAdmin{
+	display: flex;
+	flex-direction: row;
+	height: 80%;
+	justify-content: center;
+}
+
+.dataUpdateAdmin{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 50%;
+	height: 100%;
+
+}
+
+.passwordUpdateAdmin{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 50%;
+	height: 100%;
+}
+
+.textUpdAdmin{
+	font-size:42px;
+	color: white;
+	font-family: "Spinnaker", sans-serif;
+	position: relative;
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: center;
+}
+
+.inp_updAdm{
+	width: 400px;
+	border-radius: 20px;
+	padding-left: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 180px;
+	font-size: 24px;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.updateAdmButton{
+	width: 600px;
+	height: 60px;
+	font-size:24px;
+	border-radius: 20px;
+	color: #222222;
+	background: linear-gradient(90deg, #F39494,#765B99, #6F9EB2);
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.updateAdmButton:hover{
+	background: linear-gradient(90deg, #F39494,#ffffff, #6F9EB2);
+}
+
+/*------------------------------------------------------*/
+/*                     ОТЧЕТНОСТЬ                       */
+/*------------------------------------------------------*/
+
+.contSettings{
+	display: flex;
+	background: #353535;
+	border-radius: 25px;
+	height: 60px;
+	font-family: "Spinnaker", sans-serif;
+	margin-bottom: 50px;
+}
+
+.posText{
+	color: white;
+	font-size: 36px;
+	font-family: "Spinnaker", sans-serif;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.posText2{
+	color: white;
+	font-size: 24px;
+	font-family: "Spinnaker", sans-serif;
+}
+
+.formRow{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+}
+.formRow1{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.posSelect{
+	margin-left: 20px;
+	border-radius: 10px;
+	width: 250px;
+	font-size: 24px;
+	height: 50px;
+}
+
+.posPutton{
+	width: 250px;
+	border-radius: 5px;
+	font-size: 22px;
+	height: 80%;
+	color: black;
+	background: linear-gradient(90deg, #F39494,#765B99, #6F9EB2);
+}
+
+.posPutton:hover{
+	background: linear-gradient(90deg, #F39494,#ffffff, #6F9EB2);
+}
+
+.posHeadTable{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+.posHeadTableText{
+	font-size: 22px;
+	color: white;
+	font-weight: bold;
+	width: 200px;
+	margin-bottom: 20px;
+}
+
+.postTextTable{
+	font-size: 20px;
+	color: white;
+	width: 200px;
+	margin-bottom: 5px
+}
+
+.posDivTable{
+	display: flex;
+	flex-direction: column;
+
+}
+
+.posTable{
+	width: 70%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.errorText{
+	font-size: 24px;
+	text-align: center;
+	color: #d93d3d;
+	margin-top: 20px;
+	font-family: "Spinnaker", sans-serif;
+}
